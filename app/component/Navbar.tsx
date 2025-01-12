@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import "../styles/navbar.css";
-// import Image from "next/image";
-// import logo from "../assets/helios-logo.png";
+import Image from "next/image";
+import logo from "../assets/WebCreativeLogo-removebg-preview.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,14 +26,14 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <h1>
-              {/* <Image
+              <Image
                 src={logo}
                 className="rounded-full object-cover"
                 height={150}
-                width={150}
+                width={200}
                 alt="Helios Nuts"
                 title="Helios Nuts"
-              /> */}
+              />
             </h1>
           </div>
           <div className="hidden md:flex space-x-8 items-center">
