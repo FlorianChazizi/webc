@@ -31,8 +31,8 @@ export default function Navbar() {
                 className="rounded-full object-cover"
                 height={150}
                 width={200}
-                alt="Helios Nuts"
-                title="Helios Nuts"
+                alt="Web Creative"
+                title="Web Creative"
               />
             </h1>
           </div>
