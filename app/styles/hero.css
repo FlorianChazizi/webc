@@ -1,7 +1,6 @@
-.hero {
-  /* background-image: url("../assets/hero-desk2.jpg"); */
-  background-size: cover; /* Keeps the image covering the container */
-  background-position: center; /* Keeps the image centered */
+/* .hero {
+  background-size: cover; 
+  background-position: center; 
   background-repeat: no-repeat;
   background-attachment: scroll;
   height: 100vh;
@@ -12,12 +11,11 @@
   overflow: hidden;
   animation: zoomInOut 13s infinite ease-in-out;
 
-  /* Ensure optimal rendering */
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
-}
+} */
 
-@keyframes zoomInOut {
+/* @keyframes zoomInOut {
   0% {
     background-size: 100% 100%;
     background-position: center;
@@ -32,22 +30,39 @@
     background-size: 100% 100%;
     background-position: center;
   }
+} */
+
+body {
+  background: linear-gradient(135deg, #1d2b64, #5d26c1, #21d4fd, #b721ff);
+  background-size: 400% 400%; /* Creates a smoother gradient animation */
+  animation: gradientAnimation 15s ease infinite;
+  color: white; /* Adjust text color to contrast the background */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-@media (max-width: 480px) {
-
-  /* For mobile screens */
-  .hero {
-    height: 80vh;
-    /* Further reduce height on very small screens */
-    /* background-image: url("../assets/techBanner.jpg"); */
-    background-position: center;
-    background-size: cover;
-    /* Ensures the image covers the container while maintaining aspect ratio */
-    background-repeat: no-repeat;
-    /* Prevents tiling */
-  }
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
+
+.hero {
+  height: 100vh; /* Full-screen hero section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+
+
 
 .hero-content {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -90,7 +105,7 @@
 
   /* For mobile screens */
   .hero {
-    background-image: url("../assets/hero-mob.jpg");
+    /* background-image: url("../assets/hero-mob.jpg"); */
 
     height: 100vh;
     /* Further reduce height on very small screens */
