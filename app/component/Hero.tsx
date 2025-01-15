@@ -18,6 +18,11 @@ const Hero: React.FC = () => {
         >
          Σύντομα κοντά σας
         </h2>
+        <div className='epikoinwnia'>
+         <p>Επικοινωνία: <a href="mailto:info@webc.gr">info@webc.gr</a></p>
+         <p>Τηλέφωνο: <a href="tel:+306944634180">+30 6944634180</a></p>
+
+        </div>
         {/* <button
           className="hero-button "
           data-aos="zoom-in"
