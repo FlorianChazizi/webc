@@ -41,7 +41,7 @@ export default function Navbar() {
               Αρχική
             </a>
             <a href="#products" className="navlinks">
-              Προϊόντα
+              Υπηρεσίες
             </a>
             <a href="#contactus" className="navlinks">
               Επικοινωνία
@@ -89,14 +89,14 @@ export default function Navbar() {
               Αρχική
             </a>
             <a
-              href="#products"
+              href="#"
               className="block text-white px-3 py-2 rounded-md text-base font-medium text-center"
               onClick={() => setIsOpen(false)}
             >
-              Προϊόντα
+              Υπηρεσίες
             </a>
             <a
-              href="#contactus"
+              href="#"
               className="block text-white px-3 py-2 rounded-md text-base font-medium text-center"
               onClick={() => setIsOpen(false)}
             >
