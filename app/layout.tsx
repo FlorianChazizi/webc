@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Web Creative - Modern Website Development & Design Services",
   description: "We build modern websites, create custom designs, and help businesses grow with digital marketing and Eshop solutions. Contact us today!",
+  
 };
 
 export default function RootLayout({
