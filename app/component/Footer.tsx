@@ -7,9 +7,9 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-links">
-          <a href="/about" className="footer-link">About Us</a>
-          <a href="/services" className="footer-link">Services</a>
-          <a href="/contact" className="footer-link">Contact</a>
+          <a href="#about" className="footer-link">About Us</a>
+          <a href="#services" className="footer-link">Services</a>
+          <a href="#contact" className="footer-link">Contact</a>
         </div>
         <div className="footer-socials">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link">
