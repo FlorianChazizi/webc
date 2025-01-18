@@ -64,6 +64,7 @@
 
 /* Image container */
 .about-us-image {
+    position: rel;
     text-align: center;
 }
 

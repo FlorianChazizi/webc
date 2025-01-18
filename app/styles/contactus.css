@@ -1,0 +1,67 @@
+/* Contact Us Section */
+.contact-us {
+    padding: 4rem 2rem;
+    text-align: center;
+    color: white;
+}
+
+/* Title Styling */
+.contact-us-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Description Text */
+.contact-us-text {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+/* Contact Info Container */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Contact Item */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/* Contact Icon */
+.contact-icon {
+    font-size: 1.5rem;
+}
+
+/* Contact Link */
+.contact-link {
+    color: #21d4fd;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #b721ff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-us-title {
+        font-size: 2rem;
+    }
+
+    .contact-us-text {
+        font-size: 1rem;
+    }
+
+    .contact-item {
+        font-size: 1rem;
+    }
+}

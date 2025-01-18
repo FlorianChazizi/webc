@@ -40,10 +40,10 @@ export default function Navbar() {
             <a href="#" className="navlinks">
               Αρχική
             </a>
-            <a href="#products" className="navlinks">
+            <a href="#services" className="navlinks">
               Υπηρεσίες
             </a>
-            <a href="#contactus" className="navlinks">
+            <a href="#contact" className="navlinks">
               Επικοινωνία
             </a>
           </div>
@@ -89,14 +89,14 @@ export default function Navbar() {
               Αρχική
             </a>
             <a
-              href="#"
+              href="#services"
               className="block text-white px-3 py-2 rounded-md text-base font-medium text-center"
               onClick={() => setIsOpen(false)}
             >
               Υπηρεσίες
             </a>
             <a
-              href="#"
+              href="#contact"
               className="block text-white px-3 py-2 rounded-md text-base font-medium text-center"
               onClick={() => setIsOpen(false)}
             >
