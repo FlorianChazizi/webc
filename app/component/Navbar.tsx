@@ -25,7 +25,6 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
-            <h1>
               <Image
                 src={logo}
                 className="rounded-full object-cover"
@@ -34,7 +33,6 @@ export default function Navbar() {
                 alt="Web Creative"
                 title="Web Creative"
               />
-            </h1>
           </div>
           <div className="hidden md:flex space-x-8 items-center">
             <a href="#" className="navlinks">
