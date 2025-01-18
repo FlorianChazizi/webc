@@ -11,7 +11,7 @@
 
 /* Add the solid background when scrolled */
 .navigation-bar.scrolled {
-  background-color: #689f38; /* Solid background color on scroll */
+  background-color: rgba(93, 38, 193, 0.9); /* Solid background color on scroll */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
   color: white; /* Text color remains white */
 }

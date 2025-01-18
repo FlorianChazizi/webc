@@ -1,0 +1,94 @@
+/* Main container for About Us */
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    color: white;
+    gap: 2rem;
+    
+}
+
+/* Content container */
+.about-us-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+/* Title styling */
+.about-us-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+/* Text styling */
+.about-us-text {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+/* Values styling */
+.about-us-values {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.about-us-values li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Call to Action styling */
+.about-us-cta {
+    text-align: left;
+}
+
+.cta-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background: #21d4fd;
+    color: #1d2b64;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #5d26c1;
+    color: white;
+}
+
+/* Image container */
+.about-us-image {
+    text-align: center;
+}
+
+.about-us-image .img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .about-us {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-us-content {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .about-us-cta {
+        text-align: center;
+    }
+    .about-us-image .img {
+        height: 250px;
+        width: 250px;
+    }
+}

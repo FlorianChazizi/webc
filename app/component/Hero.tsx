@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import '../styles/hero.css';
 import Image from 'next/image';
-import Cloud from '../assets/cloud.jpg';
+import Cloud from '../assets/responsive.png';
 
 const Hero: React.FC = () => {
   useEffect(() => {
