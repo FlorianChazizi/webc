@@ -17,7 +17,7 @@
 }
 
 .navigation-bar.is-open {
-  background-color: #689f38; /* Green background */
+  background-color: rgba(93, 38, 193, 0.9); /* Solid background color on scroll */
   color: white; /* Ensure text remains visible */
 }
 

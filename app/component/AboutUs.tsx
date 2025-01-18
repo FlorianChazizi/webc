@@ -1,11 +1,18 @@
-import React from 'react';
+'use client';
+import React, { useEffect } from 'react';
 import '../styles/aboutus.css';
 import Image from 'next/image';
-import Bulb from '../assets/We-removebg-preview.png'
+import Bulb from '../assets/We-removebg-preview.png';
+import AOS from 'aos';
+
 const AboutUs: React.FC = () => {
+      useEffect(() => {
+        AOS.init({ duration: 1000 });
+      }, []);
+    
   return (
     <section className="about-us">
-      <div className="about-us-content">
+      <div className="about-us-content" data-aos="fade-down">
         {/* Heading */}
         <h2 className="about-us-title">About Us</h2>
         
@@ -29,7 +36,7 @@ const AboutUs: React.FC = () => {
       </div>
 
       {/* Image or Visual */}
-      <div className="about-us-image">
+      <div className="about-us-image" data-aos="fade-right">
         <Image 
          src={Bulb}
          alt='Η Εταιρία μας'

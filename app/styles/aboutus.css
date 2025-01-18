@@ -82,8 +82,12 @@
     .about-us-content {
         flex: 1;
         max-width: 100%;
+        text-align: left;
     }
-
+    .about-us-values li {
+        text-align: left;
+    }
+    
     .about-us-cta {
         text-align: center;
     }
