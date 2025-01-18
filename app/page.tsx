@@ -6,7 +6,11 @@ import ContactUs from './component/ContactUs';
 import Head from 'next/head';
 export default function Home() {
   <Head>
-
+        <title>Web Development Services | My Website</title>
+        <meta
+          name="Web Agency"
+          content="We provide modern web development, design, and digital marketing solutions to help businesses grow."
+        />
         <link rel="canonical" href="https://www.webc.gr" />
       </Head>
   return (

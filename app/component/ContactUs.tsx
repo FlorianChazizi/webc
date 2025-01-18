@@ -6,6 +6,8 @@ import '../styles/contactus.css';
 const ContactUs: React.FC = () => {
   return (
     <section className="contact-us" id='contact'>
+      <link rel="canonical" href="https://www.webc.gr" />
+
       <h2 className="contact-us-title">Contact Us</h2>
       <p className="contact-us-text">
         Have questions or want to get in touch? Reach out to us!
