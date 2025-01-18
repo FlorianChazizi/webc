@@ -1,7 +1,6 @@
 "use client";
 import React from 'react';
-import '../styles/footer.css';
-
+import '../styles/foot.css';
 
 const Footer: React.FC = () => {
   return (
