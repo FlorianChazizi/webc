@@ -3,6 +3,8 @@ import React, { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import '../styles/hero.css';
+import Image from 'next/image';
+import Cloud from '../assets/cloud.jpg';
 
 const Hero: React.FC = () => {
   useEffect(() => {
@@ -10,28 +12,22 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section className="hero">
-      <div className="container text-center hero-content">
-        <h2
-          className="text-3xl md:text-6xl font-bold mb-4"
-          data-aos="fade-down"
-        >
-         Σύντομα κοντά σας
-        </h2>
-        <div className='epikoinwnia'>
-         <p>Επικοινωνία: <a href="mailto:info@webc.gr">info@webc.gr</a></p>
-         <p>Τηλέφωνο: <a href="tel:+306944634180">+30 6944634180</a></p>
+    <div className="hero">
+      <div className="hero-text">
+        <h2 data-aos="fade-down">Κατασκευή μοντέρνας ιστοσελίδας</h2>
+        <p data-aos="fade-right">Προσαρμοσμένες λύσεις για κάθε ανάγκη.</p>
+        <button data-aos="fade-up">Ξεκινήστε τώρα</button>
 
-        </div>
-        {/* <button
-          className="hero-button "
-          data-aos="zoom-in"
-          onClick={() => document.getElementById('map')?.scrollIntoView({ behavior: 'smooth' })}
-        >
-          Βρες το Πακέτο σου
-        </button> */}
       </div>
-    </section>
+
+      <div className="hero-image" data-aos="fade-right">
+        <Image 
+        src={Cloud}
+        alt="Ψηφιοποίηση Επιχειρήσεων"
+        className='img'
+        />
+      </div>
+    </div>
   );
 };
 
