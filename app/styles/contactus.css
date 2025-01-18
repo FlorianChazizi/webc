@@ -3,6 +3,7 @@
     padding: 4rem 2rem;
     text-align: center;
     color: white;
+    background-color: white;
 }
 
 /* Title Styling */
@@ -64,4 +65,11 @@
     .contact-item {
         font-size: 1rem;
     }
+}
+.cu-icon {
+    transition: .25s ease-in-out;
+}
+
+.cu-icon:hover{
+    transform: scale(1.2);
 }
