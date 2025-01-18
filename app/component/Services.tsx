@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-// import '../styles/services.css';
+import '../styles/service.css';
 
 const Services: React.FC = () => {
   const services = [
