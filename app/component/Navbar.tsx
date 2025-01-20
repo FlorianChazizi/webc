@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import AOS from 'aos';
 import "../styles/navbar.css";
 import Image from "next/image";
 import logo from "../assets/WebCreativeLogo-removebg-preview.png";
@@ -7,6 +8,10 @@ import logo from "../assets/WebCreativeLogo-removebg-preview.png";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -35,13 +40,13 @@ export default function Navbar() {
               />
           </div>
           <div className="hidden md:flex space-x-8 items-center">
-            <a href="#" className="navlinks">
+            <a href="#" className="navlinks" data-aos="fade-right">
               Αρχική
             </a>
-            <a href="#services" className="navlinks">
+            <a href="#services" className="navlinks" data-aos="fade-right">
               Υπηρεσίες
             </a>
-            <a href="#contact" className="navlinks">
+            <a href="#contact" className="navlinks" data-aos="fade-right">
               Επικοινωνία
             </a>
           </div>
@@ -83,6 +88,7 @@ export default function Navbar() {
               href="#"
               className="block text-white px-3 py-2 rounded-md text-base font-medium text-center"
               onClick={() => setIsOpen(false)}
+              data-aos="fade-down"
             >
               Αρχική
             </a>
@@ -90,6 +96,7 @@ export default function Navbar() {
               href="#services"
               className="block text-white px-3 py-2 rounded-md text-base font-medium text-center"
               onClick={() => setIsOpen(false)}
+              data-aos="fade-down"
             >
               Υπηρεσίες
             </a>
@@ -97,6 +104,7 @@ export default function Navbar() {
               href="#contact"
               className="block text-white px-3 py-2 rounded-md text-base font-medium text-center"
               onClick={() => setIsOpen(false)}
+              data-aos="fade-down"
             >
               Επικοινωνία
             </a>
