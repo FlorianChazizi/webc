@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
       <div className="hero-text">
         <h1 data-aos="fade-down">Κατασκευή Μοντέρνων Ιστοσελίδων για Επιχειρήσεις</h1>
         <p data-aos="fade-right">Προσαρμοσμένες λύσεις για κάθε ανάγκη.</p>
-        <button data-aos="fade-up">Ξεκινήστε τώρα</button>
+        <button data-aos="fade-up">Ξεκινήστε τώρα!</button>
 
       </div>
 
