@@ -27,13 +27,13 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold mb-4" data-aos="fade-down">Links</h3>
             <ul className="text-sm space-y-2">
               <li>
-                <a href="#about" className="hover:underline"  data-aos="fade-right">About Us</a>
+                <a href="#about" className="hover:underline"  data-aos="fade-down">About Us</a>
               </li>
               <li>
-                <a href="#services" className="hover:underline"  data-aos="fade-right">Services</a>
+                <a href="#services" className="hover:underline"  data-aos="fade-down">Services</a>
               </li>
               <li>
-                <a href="#contact" className="hover:underline"  data-aos="fade-right">Contact</a>
+                <a href="#contact" className="hover:underline"  data-aos="fade-down">Contact</a>
               </li>
             </ul>
           </div>
