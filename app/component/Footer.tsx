@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold mb-4"data-aos="fade-down">Socials</h3>
             <div className="flex space-x-5">
               <a
-                href="https://facebook.com"
+                href="https://web.facebook.com/profile.php?id=61571993983525"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-blue-500 social-media-icon"
@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
                 <FaFacebookF size={24} data-aos="fade-up"/>
               </a>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/webcreativegr/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-pink-500 social-media-icon"
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
                 <FaInstagram size={24} data-aos="fade-up"/>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/web-creative-gr/about/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-blue-700  social-media-icon"
