@@ -3,6 +3,7 @@ import Hero from './component/Hero';
 import AboutUs from './component/AboutUs';
 import Services from './component/Services';
 import ContactUs from './component/ContactUs';
+import WebsiteCards from './component/WebsiteCards';
 // import ContactWithMail from './component/ContactWithMail';
 import Head from 'next/head';
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <AboutUs />
       <Services />
+      <WebsiteCards />
       <ContactUs />
       {/* <ContactWithMail /> */}
     </div>
