@@ -58,6 +58,7 @@ const Services: React.FC = () => {
                 alt={service.title}
                 width={80} // Set desired width
                 height={80} // Set desired height
+                unoptimized = {false}
               />
             </div>
             <h3 className="service-title" data-aos="fade-down">
