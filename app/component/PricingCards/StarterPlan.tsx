@@ -8,7 +8,7 @@ const StarterPlan = () => (
       Για προσωπική εργασία και νέες επιχειρήσεις.
     </p>
     <div className="flex justify-center items-baseline my-8">
-      <span className="mr-2 text-5xl font-extrabold">€350</span>
+      <span className="mr-2 text-5xl font-extrabold">350 €</span>
     </div>
     <ul role="list" className="mb-8 space-y-4 text-left">
       <li className="flex items-center space-x-3">
