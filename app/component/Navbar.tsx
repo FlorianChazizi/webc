@@ -46,6 +46,9 @@ export default function Navbar() {
             <a href="#services" className="navlinks" data-aos="fade-right">
               Υπηρεσίες
             </a>
+            <a href="#pricing" className="navlinks" data-aos="fade-right">
+              Pricing
+            </a>
             <a href="#contact" className="navlinks" data-aos="fade-right">
               Επικοινωνία
             </a>
@@ -99,6 +102,14 @@ export default function Navbar() {
               data-aos="fade-down"
             >
               Υπηρεσίες
+            </a>
+            <a
+              href="#pricing"
+              className="block text-white px-3 py-2 rounded-md text-base font-medium text-center"
+              onClick={() => setIsOpen(false)}
+              data-aos="fade-down"
+            >
+              Pricing
             </a>
             <a
               href="#contact"
