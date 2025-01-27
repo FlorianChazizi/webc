@@ -1,17 +1,17 @@
 'use client';
 
 const StarterPlan = () => (
-<div className="flex flex-col justify-between p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+<div className="flex flex-col justify-between p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white" data-aos="fade-right">
   <div>
-    <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
-    <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+    <h3 className="mb-4 text-2xl font-semibold" data-aos="fade-down">Starter</h3>
+    <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400" data-aos="fade-down">
       Για προσωπική εργασία και νέες επιχειρήσεις.
     </p>
     <div className="flex justify-center items-baseline my-8">
-      <span className="mr-2 text-5xl font-extrabold">350 €</span>
+      <span className="mr-2 text-5xl font-extrabold" data-aos="fade-down">350 €</span>
     </div>
     <ul role="list" className="mb-8 space-y-4 text-left">
-      <li className="flex items-center space-x-3">
+      <li className="flex items-center space-x-3" data-aos="fade-down">
         <svg
           className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
           fill="currentColor"
@@ -26,7 +26,7 @@ const StarterPlan = () => (
         </svg>
         <span>Απο 1 εώς 3 σελίδες</span>
       </li>
-      <li className="flex items-center space-x-3">
+      <li className="flex items-center space-x-3" data-aos="fade-down">
         <svg
           className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
           fill="currentColor"
@@ -41,7 +41,7 @@ const StarterPlan = () => (
         </svg>
         <span>Domain</span>
       </li>
-      <li className="flex items-center space-x-3">
+      <li className="flex items-center space-x-3" data-aos="fade-down">
         <svg
           className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
           fill="currentColor"
@@ -61,7 +61,7 @@ const StarterPlan = () => (
   <a
     href="#contact"
     className="font-bold text-black dark:text-white hover:text-white hover:bg-black dark:hover:bg-white dark:hover:text-black bg-transparent border border-black dark:border-white px-4 py-2 rounded transition-all duration-300 mt-auto"
-  >
+    data-aos="fade-down">
     Ξεκινήστε
   </a>
 </div>

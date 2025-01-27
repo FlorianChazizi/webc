@@ -1,19 +1,23 @@
 'use client';
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import StarterPlan from "./PricingCards/StarterPlan";
 import BusinessPlan from "./PricingCards/BusinessPlan";
 import EshopPlan from "./PricingCards/EshopPlan";
+import AOS from 'aos';
 
 const PricingSection = () => {
   const [selectedTab, setSelectedTab] = useState("websites");
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
   return (
-    <section className="bg-transparent dark:bg-white" id="pricing">
+    <section className="bg-transparent dark:bg-white" id="pricing" >
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-          <h2 className="mb-4 text-4xl tracking-tight dark:text-black text-white">Πακέτα σχεδιασμένα για επιχειρήσεις</h2>
+          <h2 className="mb-4 text-4xl tracking-tight dark:text-black text-white" data-aos="fade-down">Πακέτα σχεδιασμένα για επιχειρήσεις</h2>
         </div>
-        <div className="mb-6 text-center">
+        <div className="mb-6 text-center" data-aos="fade-down">
           <button
             onClick={() => setSelectedTab("websites")}
             className={`px-4 py-2 mx-2 font-semibold ${
