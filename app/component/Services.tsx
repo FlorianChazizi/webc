@@ -47,7 +47,7 @@ const Services: React.FC = () => {
       <h2 className="services-title">Our Services</h2>
       <div className="services-grid">
         {services.map((service, index) => (
-          <div key={index} className="service-card" data-aos="fade-up">
+          <div key={index} className="service-card shadow-lg" data-aos="fade-up">
             <div
               className="service-icon flex items-center justify-center" 
               data-aos="fade-down"

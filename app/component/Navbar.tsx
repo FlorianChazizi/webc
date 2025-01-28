@@ -37,6 +37,7 @@ export default function Navbar() {
                 width={200}
                 alt="Web Creative"
                 title="Web Creative"
+                data-aos="fade-right"
               />
           </div>
           <div className="hidden md:flex space-x-8 items-center">
