@@ -80,7 +80,7 @@ const AboutUs: React.FC = () => {
 
         {/* Call to Action */}
         <div className="about-us-cta">
-          <button className="cta-button">Learn More</button>
+          <button className="cta-button">Μάθετε Περισσότερα</button>
         </div>
       </div>
     </section>
