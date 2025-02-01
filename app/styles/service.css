@@ -1,10 +1,17 @@
 /* Services Section */
 .services {
+    background: linear-gradient(120deg, #1d2b64, #5d26c1, #21d4fd, #b721ff);
+    background-size: 200% 200%; 
     padding: 4rem 2rem;
     color: white;
     text-align: center;
 }
-
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  } 
+  
 /* Section Title */
 .services-title {
     font-size: 2.5rem;
