@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
           </div>
           {/* Column 3 */}
           <div>
-            <h3 className="text-xl font-bold mb-4"data-aos="fade-down">Socials</h3>
+            <h3 className="text-xl font-bold mb-4"data-aos="fade-down">Social Media</h3>
             <div className="flex space-x-5">
               <a
                 href="https://web.facebook.com/profile.php?id=61571993983525"
