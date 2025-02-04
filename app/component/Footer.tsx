@@ -30,10 +30,10 @@ const Footer: React.FC = () => {
                 <a href="#about" className="hover:underline"  data-aos="fade-down">About Us</a>
               </li>
               <li>
-                <a href="#services" className="hover:underline"  data-aos="fade-down">Services</a>
+                <a href="#services" className="hover:underline"  data-aos="fade-down">Υπηρεσίες</a>
               </li>
               <li>
-                <a href="#contact" className="hover:underline"  data-aos="fade-down">Contact</a>
+                <a href="#contact" className="hover:underline"  data-aos="fade-down">Επικοινωνία</a>
               </li>
             </ul>
           </div>
