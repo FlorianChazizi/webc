@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold mb-4" data-aos="fade-down">Links</h3>
             <ul className="text-sm space-y-2">
               <li>
-                <a href="#about" className="hover:underline"  data-aos="fade-down">About Us</a>
+                <a href="#about" className="hover:underline"  data-aos="fade-down">Σχετικά με εμάς</a>
               </li>
               <li>
                 <a href="#services" className="hover:underline"  data-aos="fade-down">Υπηρεσίες</a>
