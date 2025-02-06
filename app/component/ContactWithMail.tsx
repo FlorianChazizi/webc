@@ -44,7 +44,7 @@ const ContactWithMail = () => {
     <div className="flex justify-center items-center p-6">
       <div className="w-full max-w-md p-6 bg-white shadow-lg rounded-lg">
         <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
-          Contact Us
+          Επικοινωνία
         </h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
