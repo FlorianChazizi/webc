@@ -18,7 +18,7 @@ const ContactWithMail = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    setStatus("Sending...");
+    setStatus("Sending....");
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
